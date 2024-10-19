@@ -11,6 +11,7 @@
 ---
 State Pattern ?
 <br>State Pattern은 객체의 내부 상태에 따라 그 객체의 행동이 달라지도록 설계하는 디자인 패턴입니다. 객체의 상태를 클래스로 분리하여, 상태가 변경될 때 객체의 동작을 쉽게 변경할 수 있게 합니다. 이 패턴을 통해 복잡한 조건문 없이 상태 전환을 명확하게 구현할 수 있습니다.
+<img width="756" alt="스크린샷 2024-10-19 오후 5 56 14" src="https://github.com/user-attachments/assets/772fbf1f-96f9-4016-885a-87841e6c9ad4">
 
 State Pattern 상세 설명
 
