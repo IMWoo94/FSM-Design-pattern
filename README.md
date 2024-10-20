@@ -84,5 +84,8 @@ State Pattern 의 next, prev 로 상태를 변경하는게 아니라 input 에 �
 <br>즉, 특정 이벤트가 발생할 때마다 상태가 전환되며, 여러 상태 전환 경로를 정의할 수 있어 더 복잡한 상태 전환 규칙을 유연하게 관리할 수 있습니다.
 
 ---
+
+
 참고<br>
 [Java에서 Enum의 한계를 극복하기 위한 FSM(Finite State Machine) 디자인 패턴 (feat. State Pattern, Spring StateMachine)](https://velog.io/@blackbean99/Java%EC%97%90%EC%84%9C-Enum%EC%9D%98-%ED%95%9C%EA%B3%84%EB%A5%BC-%EA%B7%B9%EB%B3%B5%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-FSMFinite-State-Machine-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-feat.-State-Pattern-Spring-StateMachine)
+[Spring StateMachine](https://spring.io/projects/spring-statemachine#learn)
