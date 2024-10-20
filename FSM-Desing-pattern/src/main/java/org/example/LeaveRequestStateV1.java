@@ -1,6 +1,6 @@
 package org.example;
 
-public enum LeaveRequestState {
+public enum LeaveRequestStateV1 {
 	Submitted("Submitted"){
 		@Override
 		public String responsiblePerson(){
@@ -37,7 +37,7 @@ public enum LeaveRequestState {
 	public abstract void testMethod();
 	private final String name;
 
-	LeaveRequestState(String name) {
+	LeaveRequestStateV1(String name) {
 		this.name = name;
 	}
 }

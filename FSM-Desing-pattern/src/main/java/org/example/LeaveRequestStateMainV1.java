@@ -12,10 +12,10 @@ public class LeaveRequestStateMainV1 {
 		 * 하지만 좋지 않은 점도 있습니다.
 		 * 분기에서 enum 을 작성하지 않아도 컴파일 상에는 문제 없이 동작하고 구현되지 않은 것을 확인 할 수 없게 됩니다.
  		 */
-		LeaveRequestState[] values = LeaveRequestState.values();
-		for(LeaveRequestState state : values) {
+		LeaveRequestStateV1[] values = LeaveRequestStateV1.values();
+		for(LeaveRequestStateV1 state : values) {
 			switch (state) {
-				case LeaveRequestState.Submitted,LeaveRequestState.Approved -> state.testMethod();
+				case LeaveRequestStateV1.Submitted, LeaveRequestStateV1.Approved -> state.testMethod();
 			}
 		}
 
